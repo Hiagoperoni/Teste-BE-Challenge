@@ -1,7 +1,8 @@
 import { IItem } from "../interfaces/testes-clean-code/teste-3.1.interface";
 
 function isExpensive(item: IItem): boolean {
-    return item.price > 100;
+    const HIGH_VALUE = 100;
+    return item.price > HIGH_VALUE;
 };
 
 // Printing to console
